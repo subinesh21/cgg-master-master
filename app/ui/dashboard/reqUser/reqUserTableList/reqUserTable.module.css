@@ -1,0 +1,159 @@
+.singleUser {
+    margin-top: 10px;
+    padding: 10px;
+    display: flex;
+    cursor: pointer;
+    justify-content: space-between;
+    align-items: center;
+    flex: 3;
+    gap: 20px;
+    border-bottom: 1px solid #dbdbdb;
+}
+.userCard {
+    display: flex;
+    flex: 1;
+}
+.icon {
+    font-size: larger;
+}
+
+.profilePic {
+    border-radius: 10px;
+}
+
+.userInfo {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.name {
+    font-weight: 600;
+}
+.trid {
+    font-size: smaller;
+}
+
+.gender {
+    font-size: smaller;
+}
+
+.loginInfo {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.phoneNumber {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-size: smaller;
+}
+.cardNumber {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-size: smaller;
+}
+
+.plan {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+}
+.planbtn {
+    font-size: smaller;
+}
+.remcount {
+    font-size: smaller;
+}
+.churchDp {
+    border-radius: 20px;
+}
+.churchInfo {
+    display: flex;
+}
+.details {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.churchName {
+    font-size: smaller;
+    font-weight: 600;
+}
+.churchid {
+    font-size: smaller;
+}
+
+.group1 {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+}
+.group2 {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+}
+
+.table {
+    width: 100%;
+}
+
+.search{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.searchContainer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #e1e1e1;
+    padding: 10px;
+    border-radius: 10px;
+    width: max-content;
+  }
+  
+  .input {
+    background-color: transparent;
+    border: none;
+    color: var(--text);
+    outline: none;
+  }
+
+@media (max-width: 768px) {
+
+    .singleUser {
+        background-color: #fff;
+        border-radius: 10px;
+        flex-direction: column;
+        align-items: flex-start;
+        border-bottom: none;
+        box-shadow: 1px 1px 5px #576ac9;
+    }
+    .userCard {
+        width: 100%;
+    }
+    .group1 {
+        width: 100%;
+        justify-content: space-between;
+        align-items: flex-end;
+        border-bottom: 1px solid #a7a7a7;
+        padding-bottom: 5px;
+    }
+
+    .group2 {
+        width: 100%;
+        justify-content: space-between;
+        align-items: flex-end;
+        margin-top: 5px;
+    }
+    .searchContainer{
+        width: 100%;
+    }
+}

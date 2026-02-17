@@ -1,0 +1,38 @@
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+.menu{
+    flex: 1;
+    background-color: rgb(243, 255, 240);
+}
+.content{
+    flex: 4;
+    padding: 20px;
+}
+.innerContainer {
+    background-color: var(--bgSoft);
+    border-radius: 10px;
+    margin-top: 20px;
+}
+@media (max-width: 768px) {
+    .container{
+        display: flex;
+        flex-direction: column-reverse;
+        overflow: hidden;
+    }
+    .menu{
+        position: fixed;
+        box-shadow: 0px 0px 2px 0px rgb(11, 56, 0);
+        flex: auto;
+        bottom: 0;
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+        z-index: 10;
+    }
+    .content{
+        flex: auto;
+        padding: 20px;
+    }
+}

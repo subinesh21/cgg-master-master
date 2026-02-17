@@ -1,0 +1,181 @@
+.singleUser {
+    margin-top: 5px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    align-items: center;
+    color: #272727;
+    flex: 3;
+    gap: 10px;
+    border-bottom: 1px solid #dbdbdb;
+}
+.singleUser:hover {
+    text-decoration: none;
+}
+.userCard {
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+.icon {
+    font-size: larger;
+}
+
+.userInfo {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    line-height:normal;
+    justify-content:center;
+}
+
+.name {
+    font-weight: 600;
+    line-height:unset;
+}
+.trid {
+    font-size: smaller;
+    line-height:unset;
+}
+.leadId{
+    margin-top: 1px;
+    color: rgb(6, 170, 0);
+    font-size:x-small
+}
+.gender {
+    font-size: smaller;
+}
+
+.loginInfo {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    gap: 3px;
+    flex: 1;
+}
+.lotTitle{
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.lotDate{
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.phoneNumber {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-size: smaller;
+}
+.cardNumber {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-size: smaller;
+}
+
+.plan {
+    display: flex;
+    flex-direction: column;
+    line-height: normal;
+    flex: 1;
+}
+.planbtn {
+    font-size: smaller;
+}
+.remcount {
+    font-size: smaller;
+}
+.churchDp {
+    border-radius: 20px;
+}
+.churchInfo {
+    display: flex;
+}
+.details {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.churchName {
+    font-size: smaller;
+    font-weight: 600;
+}
+.churchid {
+    font-size: smaller;
+}
+
+.group1 {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+}
+.group2 {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+}
+
+.table {
+    width: 100%;
+}
+
+.search{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.searchContainer {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    background-color: #e1e1e1;
+    padding: 8px;
+    border-radius: 10px;
+    width: max-content;
+  }
+  
+  .input {
+    font-size: 16px;
+    background-color: transparent;
+    border: none;
+    color: var(--text);
+    outline: none;
+  }
+
+@media (max-width: 768px) {
+
+    .singleUser {
+        background-color: #fff;
+        border-radius: 10px;
+        flex-direction: column;
+        align-items: flex-start;
+        border-bottom: none;
+        box-shadow: 1px 1px 5px #576ac9;
+    }
+    .userCard {
+        width: 100%;
+    }
+    .group1 {
+        width: 100%;
+        justify-content: space-between;
+        align-items: flex-end;
+        border-bottom: 1px solid #a7a7a7;
+        padding-bottom: 5px;
+    }
+
+    .group2 {
+        width: 100%;
+        justify-content: space-between;
+        align-items: flex-end;
+        margin-top: 5px;
+    }
+    .searchContainer{
+        width: 100%;
+    }
+}

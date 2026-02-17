@@ -1,0 +1,45 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.title{
+    font-size:xx-large;
+    font-weight: bold;
+}
+.disc{
+    color:rgb(0, 197, 10);
+}
+.buttons{
+    font-size: x-large;
+    display: flex;
+    gap: 10px;
+}
+.iconBtn{
+    padding: 10px;
+    background-color: rgb(226 232 240);
+    border-radius: 30px;
+    cursor: pointer;
+}
+.iconBtn:hover{
+    background-color:rgb(0, 177, 9);
+}
+.overlay{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0, 0.5);
+    transition: all 1s;
+}
+@media (max-width: 768px) {
+
+    .buttons{
+        display: none;
+    }
+}
